@@ -25,7 +25,7 @@ function ToolTipExample(props) {
           velit laoreet id donec. Id neque aliquam vestibulum morbi. Est lorem
           ipsum dolor sit amet consectetur adipiscing elit.
         </p>
-        <ToolTip toolTipText="This is Tooltip detail">
+        <ToolTip toolTipText="This is Tooltip detail" underlineText={false}>
           <span>hover over to see tooltip</span>
         </ToolTip>
         <p>

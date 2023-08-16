@@ -1,6 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 
-function ToolTip({ children, toolTipText = "Sample Text" }) {
+function ToolTip({
+  children,
+  toolTipText = "Sample Text",
+  underlineText = true,
+}) {
   const childRef = useRef(null);
   const [isHover, setIsHover] = useState("none");
   const overFunction = (e) => {
@@ -32,6 +36,8 @@ function ToolTip({ children, toolTipText = "Sample Text" }) {
         cursor: "pointer",
         borderRadius: "5px",
         background: backgroundcolor,
+
+        textDecoration: underlineText ? "underline" : "",
       }}
     >
       <div

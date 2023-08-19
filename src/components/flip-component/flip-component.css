@@ -1,0 +1,31 @@
+.flip-container {
+  transition: transform 0.8s;
+  transform: perspective(1320px);
+  transition-timing-function: ease-in-out;
+}
+
+.flip-horizontal {
+  transform: rotateY(0.5turn);
+}
+.flip-vertical {
+  transform: rotateX(0.5turn);
+}
+
+.flip-container .comp2-horizontal {
+  transform: rotateY(0.5turn);
+}
+.flip-container .comp2-vertical {
+  transform: rotateX(0.5turn);
+}
+.flip-container * {
+  margin: 0px;
+}
+
+.comp1 {
+  width: 100%;
+  height: 100%;
+}
+.comp2 {
+  width: 100%;
+  height: 100%;
+}

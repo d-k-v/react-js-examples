@@ -2,10 +2,19 @@
 
 Example of component available in <b>examples</b> folder
 Component implemented in <b>components</b> folder
-  ### 1. Tooltip
-  
 
+### 1. Tooltip
 
+### 2. Flip Component
+
+props of "FlipComponent"
+
+list of props : \
+<b>isFlip: </b> takes a boolean. \
+<b>comp1: </b> takes an react Component which is displayed when "<u>isFlip</u>" is false. \
+<b>comp1: </b> takes an react Component which is displayed when "<u>isFlip</u>" is true.\
+<b>flipVertical: </b> takes boolean, flips component vertically if <b>true</b>.
+<b>className: </b> takes custom class name as an string.
 
 # Getting Started with Create React App
 
